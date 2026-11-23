@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './componant/Header'
 import Hero from './componant/Hero'
-import Products from './componant/products'
+import ProductsTemp from './componant/ProductsTemp'
 import Form from './componant/Form'
 import trans from "./data/text";
 import { useState } from 'react'
@@ -20,7 +20,7 @@ export default function App() {
       <Header language={language} lang={lang} />
 
       <Hero language={language} />
-      <Products />
+      <ProductsTemp />
       <Form />
     </div>
   )

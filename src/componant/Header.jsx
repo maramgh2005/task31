@@ -70,7 +70,7 @@ export default function Header({ language, lang }) {
             </div>
 
             <div>
-                <ul className={`absolute top-22 h-96 grid gap-0.5 ${showMobile ? "right-0" : "right-[-400px]"} w-56 bg-[#101B32] text-white text-center duration-200`}>
+                <ul className={`absolute top-28 h-96 grid gap-0.5 ${showMobile ? "right-0" : "right-[-400px]"} w-56 bg-[#101B32] text-white text-center duration-200`}>
                     {nav.map((n, index) => (
                         n.children ? (
                             <li key={n.id} className='relative w-full'>
